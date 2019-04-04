@@ -1,0 +1,40 @@
+/*GLOBAL/////////////////////////////////////////////////////////////////////*/
+
+
+main {
+  background-color: #f7f7f7;
+  width:100%;
+  height: calc(100vh - 92px);
+}
+
+.primary-color {
+  color:#c2e62f;
+}
+
+.secondary-color {
+  color:#4b5a6c;
+}
+/*NAVBAR/////////////////////////////////////////////////////////////////////*/
+
+.navbar {
+  margin-bottom:0;
+}
+
+.navbar-brand {
+  height: 90px;
+  padding: 5px 15px;
+}
+
+.navbar-nav>li>a {
+  padding:0 30px;
+  line-height: 90px;
+}
+
+
+/*CONTEÚDO///////////////////////////////////////////////////////////////////*/
+
+.display-flex-center {
+  display: flex; 
+  justify-content: center;
+  align-items: center;
+}
