@@ -101,6 +101,22 @@ body {
   margin: 13px 15px;
 }
 
+/*NAVBAR INTERNA/////////////////////////////////////////////////////////////*/
+
+.navbar-interna {
+  background-color:#c2e62f;
+}
+
+.navbar-header-interna .navbar-toggle .icon-bar {
+  background-color: #4b5a6c;
+}
+
+.navbar-header .navbar-toggle-interna {
+  border-color: transparent;
+  margin: 13px 15px;
+}
+
+
 /*CONTEÚDO///////////////////////////////////////////////////////////////////*/
 
 main {
@@ -138,6 +154,28 @@ a.link-principal:hover {
   cursor: pointer;
 }
 
+/*CONTATO////////////////////////////////////////////////////////////////////*/
+.form-control {
+  margin-top: 25px;
+  border-radius: 0px;
+  height: 45px;
+}
+
+.btn-contato {
+  background-color: #c2e62f;
+  color: #fff;
+  border-radius: 0;
+  margin-top: 20px;
+  padding: 15px 50px;
+  transition: all 0.3s;
+}
+
+.btn-contato:hover {
+  background-color:#4b5a6c;
+  color:#fff;
+}
+
+
 /*MEDIA QUERY////////////////////////////////////////////////////////////////*/
 @media (max-width:768px) {
   .navbar-nav {
@@ -156,3 +194,13 @@ a.link-principal:hover {
     text-align: center;
   }
 }
+
+/* @media (min-width: 768px) {
+  .navbar-toggle {
+    display: none;
+  }
+
+  .navbar-collapse.collapse{
+
+  }
+} */
