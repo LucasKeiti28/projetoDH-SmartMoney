@@ -189,6 +189,97 @@ body {
 
 /*CONTEÚDO///////////////////////////////////////////////////////////////////*/
 
+<<<<<<< HEAD
+.display-flex-center {
+  display: flex; 
+  justify-content: center;
+  align-items: center;
+}
+
+/*LOGIN///////////////////////////////////////////////////////////////////*/
+
+
+body{
+  background-color: #c1e800;
+}
+
+/* .icone{
+  position: relative;
+  top: 30px;
+  left: 632px;
+} */
+
+.form-login{
+  width: 278px;
+  height: 400px;
+  /* position: relative; */
+  top: 113px;
+  left: 529px;
+  background-color: #fff;
+  border-radius: 9px;
+}
+
+form input{
+  width: 245px;
+  height: 50px;
+  background-color: #8080801f;
+  border: none;
+  margin-bottom: 8px;
+ 
+}
+
+form button{
+  
+  width: 245px;
+  height: 50px;
+  background-color: #4b5a6c;
+  color: #f7f7f7;
+}
+
+a strong {
+  text-decoration: underline;
+  color: #91af00;  
+  }
+
+  .seu-login{
+    text-align: center;
+  
+    color: #4b5a6c;
+  }
+
+  .container{
+    display: flex;
+    justify-content: center !important;
+    margin-top: 31px;
+  }
+
+  .container2{
+    display: flex;
+    justify-content: center !important;
+    margin-top: 81px;
+  }
+
+  .form-centro {
+    text-align: center;
+    margin-top: 37px;
+  }
+
+  .cpf  {
+    margin-top: 60px;
+  }
+
+  .botao {
+    margin-top: 20px;
+  }
+
+ .tag {
+   margin-top: 40px;
+ }
+
+ ::placeholder{
+   padding: 10px;
+ }
+=======
 main {
   width:100%;
   height: calc(100vh - 62px);
@@ -349,3 +440,4 @@ a.link-principal:hover {
 
   }
 } */
+>>>>>>> ca7f67ce4a6c86f83863da0a764b2e2211ab2e80
