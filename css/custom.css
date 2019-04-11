@@ -27,6 +27,16 @@ body {
   color:#4b5a6c;
 }
 
+.mt-5{
+  margin-top: 5px;
+}
+.mt-10{
+  margin-top: 10px;
+}
+.mt-15{
+  margin-top: 15px;
+}
+
 .display-flex-center {
   display: flex;
   flex-wrap: wrap;
@@ -117,6 +127,66 @@ body {
 }
 
 
+/*MODAL NOVA CONTA/////////////////////////////////////////////////////////////*/
+#novaConta .modal-dialog {
+  float: right;
+  margin: 0;
+}
+
+#novaConta .bt-fechar-modal{
+  font-size: 50px;
+  color: #617419;
+  font-weight: normal;
+}
+
+#novaConta .modal-content{
+  -webkit-box-shadow: 0 5px 15px rgba(0,0,0,0);
+  -moz-box-shadow: 0 5px 15px rgba(0,0,0,0);
+  -o-box-shadow: 0 5px 15px rgba(0,0,0,0);
+  box-shadow: 0 5px 15px rgba(0,0,0,0);
+  border-radius: 0;
+  border: none;
+  height: 100vh;
+}
+
+#novaConta .modal-header{
+  border: none;
+}
+.padding-30{
+  padding: 30px;
+}
+
+#novaConta .form-control {
+  margin-top: 25px;
+  border-radius: 0px;
+  height: 55px;
+  background-color: #f2f2f2;
+  border: none;
+  -webkit-box-shadow: 0 0px 0px rgba(0,0,0,0);
+  -moz-box-shadow: 0 0px 0px rgba(0,0,0,0);
+  -o-box-shadow: 0 0px 0px rgba(0,0,0,0);
+  box-shadow: 0 0px 0px rgba(0,0,0,0);
+}
+
+#novaConta label {
+  margin-left: 10px;
+}
+
+#novaConta .btn-secundario {
+  background-color:#4b5a6c;
+  color: #fff;
+  border-radius: 0;
+  margin-top: 20px;
+  padding: 15px 50px;
+  transition: all 0.3s;
+}
+
+#novaConta .btn-secundario:hover {
+  background-color: #c2e62f;
+  color:#fff;
+}
+
+
 /*CONTEÚDO///////////////////////////////////////////////////////////////////*/
 
 main {
@@ -141,6 +211,12 @@ h2 {
   font-size: 1.875em;
   margin-top:0;
 }
+h3{
+  color:#c2e62f;
+  font-size: 1.8em;
+  margin-bottom: 0;
+  font-weight: normal;
+}
 
 a.link-principal{
   display: inline-block;
@@ -158,7 +234,7 @@ a.link-principal:hover {
 .form-control {
   margin-top: 25px;
   border-radius: 0px;
-  height: 45px;
+  height: 55px;
 }
 
 .btn-contato {
