@@ -25,19 +25,19 @@
           </div>
           <div class="curso-box-infos"> <!--Informação de minuto, aluno e dificuldade-->
             <div class="row">
-              <div class="col-md-4">
+              <div class="col-xs-4 col-md-4">
                 <div class="panel">
                   <p class="card-infos-num bold">45</p>
                   <p class="card-infos-desc">Minutos</p>
                 </div>
               </div>
-              <div class="col-md-4">
+              <div class="col-xs-4 col-md-4">
                 <div class="panel">
                   <p class="card-infos-num bold">234</p>
                   <p class="card-infos-desc">Alunos</p>
                 </div>
               </div>
-              <div class="col-md-4">
+              <div class="col-xs-4 col-md-4">
                 <div class="panel">
                   <p class="card-infos-num bold">6/10</p>
                   <p class="card-infos-desc">Dificuldade</p>

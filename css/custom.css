@@ -185,6 +185,45 @@ body {
 
 /*NAVBAR INTERNA/////////////////////////////////////////////////////////////*/
 
+#menu-interno-cursos.collapse.navbar-collapse {
+  display: none!important;
+}
+
+#menu-interno-cursos.collapse.navbar-collapse.in {
+  display: block!important;
+}
+
+#menu-interno-cursos .navbar-left,
+#menu-interno-cursos .navbar-right,
+#menu-interno-cursos .navbar-nav,
+#menu-interno-cursos .navbar-nav > li,
+.navbar-header.navbar-header-interna.navbar-left{
+  float:none !important;
+}
+
+#menu-interno-cursos {
+  text-align: center;
+}
+
+#menu-interno-cursos.navbar-right {
+  float: none!important;
+}
+
+.navbar-header-interna p.navbar-text {
+  margin-top: 20px;
+  margin-bottom: 15px;
+  position: absolute;
+  right: 60px;
+}
+
+.navbar-header-interna {
+  position: relative;
+}
+
+.navbar-header-interna a.navbar-link {
+  color:#4b5a6c;
+}
+
 .navbar-interna {
   background-color:#c2e62f;
 }
@@ -193,10 +232,21 @@ body {
   background-color: #4b5a6c;
 }
 
+.navbar-header-interna .navbar-toggle {
+  display: block;
+}
+
 .navbar-header .navbar-toggle-interna {
   border-color: transparent;
   margin: 13px 15px;
 }
+
+#menu-interno-cursos .nav > li > a {
+  color:#fff;
+  border-top: 1px solid #ffffff2b;
+}
+
+
 
 
 /*MODAL NOVA CONTA/////////////////////////////////////////////////////////////*/
@@ -341,7 +391,7 @@ a.link-principal:hover {
   background-size:cover;
   background-repeat: no-repeat;
   width:100%;
-  height:200px;
+  height:250px;
   position:relative;
 }
 
@@ -396,24 +446,23 @@ a.link-principal:hover {
 
 /*MEDIA QUERY////////////////////////////////////////////////////////////////*/
 @media (max-width: 991px) {
-  .navbar-header {
-    width: 100%;
+  .collapse.navbar-collapse {
+    display: none!important;
   }
+
+  .collapse.navbar-collapse.in {
+    display: block!important;
+  }
+
+  .navbar-left,
+  .navbar-right,
+  .navbar-nav,
+  .navbar-nav > li {
+    float:none !important;
+  }
+
   .navbar-toggle {
-    display: inline-block;
-  }
-
-  .navbar-collapse.collapse{
-    display: none !important;  
-  }
-  .navbar-collapse.collapse.in{
-    display: block !important;  
-  }
-}
-
-@media (max-width:768px) {
-  .navbar-nav {
-    margin: 0px -15px;
+    display: block;
   }
 
   .navbar-default .navbar-nav>li>a.login,
@@ -423,10 +472,23 @@ a.link-principal:hover {
     border-top: 1px solid #ccc;
   }
 
+  .navbar-static-top .navbar-collapse {
+    padding: 0 15px;
+  }
+
+  .navbar-nav {
+    margin: 0px -15px;
+  }
+
+  .curso-box-img {
+    height:325px;
+  }
+
+/*//////////////////////////////////////*/
+
   .texto-principal-mobile {
     margin:60px 0;
     text-align: center;
   }
 }
-
 

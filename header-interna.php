@@ -1,7 +1,8 @@
 <nav class="navbar navbar-static-top navbar-interna">
   <div class="container">
     <div class="navbar-header navbar-header-interna navbar-left">
-      <button type="button" class="navbar-toggle navbar-toggle-interna collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+      <p class="navbar-text">Olá, <a href="#" class="navbar-link">André</a></p>
+      <button type="button" class="navbar-toggle navbar-toggle-interna collapsed navbar-right" data-toggle="collapse" data-target="#menu-interno-cursos" aria-expanded="false">
         <span class="sr-only">Toggle navigation</span>
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
@@ -13,7 +14,7 @@
     </div>
 
     <!-- Collect the nav links, forms, and other content for toggling -->
-    <div class="collapse navbar-collapse navbar-right" id="bs-example-navbar-collapse-1">
+    <div class="collapse navbar-collapse navbar-right" id="menu-interno-cursos">
       <ul class="nav navbar-nav">
         <!-- <li class="active"><a href="#index.php">Home<span class="sr-only">(current)</span></a></li> -->
         <li><a href="index.php">Home</a></li>

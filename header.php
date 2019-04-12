@@ -2,8 +2,8 @@
     <div class="container">
         <div class="navbar-header navbar-left">
             <button type="button" class="navbar-toggle collapsed" data-toggle="collapse"
-                data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
-                <span class="sr-only">Toggle navigation</span>
+                data-target="#menu-principal" aria-expanded="false">
+                <span class="sr-only">Menu</span>
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
@@ -14,7 +14,7 @@
         </div>
 
         <!-- Collect the nav links, forms, and other content for toggling -->
-        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+        <div class="collapse navbar-collapse" id="menu-principal">
             <ul class="nav navbar-nav">
                 <!-- <li class="active"><a href="#index.php">Home<span class="sr-only">(current)</span></a></li> -->
                 <li><a href="index.php">Home</a></li>
