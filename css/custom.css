@@ -218,14 +218,15 @@ body {
   box-shadow: 0 5px 15px rgba(0,0,0,0);
   border-radius: 0;
   border: none;
-  height: 100vh;
+  min-height: 100vh;
 }
 
 #novaConta .modal-header{
   border: none;
+  padding: 0 5px;
 }
 .padding-30{
-  padding: 30px;
+  padding: 0 30px;
 }
 
 #novaConta .form-control {
