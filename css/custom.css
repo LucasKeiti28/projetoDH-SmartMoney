@@ -47,79 +47,73 @@ body {
 /*LOGIN//////////////////////////////////////////////////////////////////////*/
 
 .login-page{
-  background-color: #c1e800;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: column;
+  height: 100vh;
+  background-color: #c2e62f;
 }
 
 .form-login{
-  width: 278px;
-  height: 400px;
-  /* position: relative; */
-  top: 113px;
-  left: 529px;
+  width: 300px;
   background-color: #fff;
   border-radius: 9px;
 }
 
-form input{
-  width: 245px;
-  height: 50px;
+.form-centro {
+  text-align: center;
+  margin: 30px;
+}
+
+.seu-login{
+  text-align: center;
+  color: #4b5a6c;
+  display:block;
+}
+
+.form-login input{
+  width: 100%;
+  padding: 15px 10px;
   background-color: #8080801f;
   border: none;
   margin-bottom: 8px;
- 
+  padding:10px;
 }
 
-form button{
-  width: 245px;
-  height: 50px;
+.form-login button{
+  width: 100%;
+  padding: 15px 10px;
   background-color: #4b5a6c;
+  border: none;
   color: #f7f7f7;
+  transition: all 0.3s;
 }
 
-a strong {
-  text-decoration: underline;
-  color: #91af00;  
-  }
+.form-login button:hover {
+  background-color: #c2e62f;
+}
 
-  .seu-login{
-    text-align: center;
-  
-    color: #4b5a6c;
-  }
+.esqueci-senha a {
+  color: #c2e62f;
+}
 
-  .container{
-    display: flex;
-    justify-content: center !important;
-    margin-top: 31px;
-  }
+.esqueci-senha a:hover {
+  text-decoration: underline;  
+}
 
-  .container2{
-    display: flex;
-    justify-content: center !important;
-    margin-top: 81px;
-  }
+.login-form-container{
+  display: flex;
+  justify-content: center;
+}
 
-  .form-centro {
-    text-align: center;
-    margin-top: 37px;
-  }
-
-  .cpf  {
-    margin-top: 60px;
-  }
-
-  .botao {
-    margin-top: 20px;
-  }
-
- .tag {
-   margin-top: 40px;
- }
-
- ::placeholder{
-   padding: 10px;
- }
-
+.login-form-container .seu-login,
+.login-form-container .cpf,
+.login-form-container .botao,
+.login-form-container .esqueci-senha  {
+  margin-top: 30px;
+}
 
 /*NAVBAR/////////////////////////////////////////////////////////////////////*/
 
@@ -400,6 +394,22 @@ a.link-principal:hover {
 
 
 /*MEDIA QUERY////////////////////////////////////////////////////////////////*/
+@media (max-width: 991px) {
+  .navbar-header {
+    width: 100%;
+  }
+  .navbar-toggle {
+    display: inline-block;
+  }
+
+  .navbar-collapse.collapse{
+    display: none !important;  
+  }
+  .navbar-collapse.collapse.in{
+    display: block !important;  
+  }
+}
+
 @media (max-width:768px) {
   .navbar-nav {
     margin: 0px -15px;
@@ -418,12 +428,4 @@ a.link-principal:hover {
   }
 }
 
-/* @media (min-width: 768px) {
-  .navbar-toggle {
-    display: none;
-  }
 
-  .navbar-collapse.collapse{
-
-  }
-} */
