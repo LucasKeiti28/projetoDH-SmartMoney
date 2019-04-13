@@ -448,6 +448,51 @@ a.link-principal:hover {
   padding: 0 0 10px 0;
 }
 
+/* PAGINA INTERNA AULA ///////////////////////////////////////////////////////*/
+
+.botao-aula{
+  width: 224px;
+  height: 67px;
+  background-color: #4b5a6c;
+  color: #f7f7f7;
+  margin: 35px 0 35px ;
+  font-size: 10px;
+  color: #c2e62f;
+}
+
+.materia{
+font-size: 20px;
+margin: 0px 10px;
+}
+
+.tituloAula{
+  margin: 0px 10px;
+  /* font-size: 8px; */
+}
+
+.row-1{
+  margin: 15px;
+}
+.bg-submenu-post-interno{
+  background-color: #4b5a6c;
+}
+.submenu{
+  width:100vw;
+  height: 40px;
+  display:flex;
+  color: white;
+  justify-content: space-around;
+  align-items: flex-end; 
+}
+
+.submenu li{
+  list-style-type: none;
+}
+
+.h2{
+  margin: 20px;
+}
+
 
 /*MEDIA QUERY////////////////////////////////////////////////////////////////*/
 @media (max-width: 991px) {
