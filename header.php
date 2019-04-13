@@ -24,7 +24,7 @@
             </ul>
 
             <ul class="nav navbar-nav navbar-right">
-                <li><a class="login bold" href="index-posts.php">Login</a></li>
+                <li><a class="login bold" href="login.html">Login</a></li>
                 <li><a href="#" class="cadastre-se" role="button" data-toggle="modal" data-target="#novaConta">Abrir
                         minha conta</a></li>
             </ul>
@@ -48,7 +48,7 @@
                             <h3>Insira os dados para cadastrar</h3>
                         </div>
                         <div class="col-md-12">
-                            <form class="contato">
+                            <form class="contato" action="login.html"> 
                                 <div class="form-group">
                                     <input id="nova-conta-nome" type="text" placeholder="Nome Completo"
                                         class="form-control">
