@@ -492,3 +492,24 @@ a.link-principal:hover {
   }
 }
 
+/* PAGINA INTERNA AULA //////////////////////////////////////*/
+
+.botao-aula{
+  width: 224px;
+  height: 67px;
+  background-color: #4b5a6c;
+  color: #f7f7f7;
+  margin: 35px 0 35px ;
+  font-size: 10px;
+  color: #c2e62f;
+}
+
+.materia{
+font-size: 20px;
+margin: 0px 10px;
+}
+
+.tituloAula{
+  margin: 0px 10px;
+  /* font-size: 8px; */
+}
