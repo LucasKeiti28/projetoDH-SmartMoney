@@ -2,7 +2,7 @@
   include_once "head.php" ;
   include_once "header.php" ;
 ?>
-<main class="display-flex-center">
+<main class="display-flex-center institucional">
   <div class="container">
     <div class="row display-flex-center">
       <div class=" col-md-6">

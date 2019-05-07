@@ -8,7 +8,7 @@
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
       </button>
-      <a class="navbar-brand" href="#">
+      <a class="navbar-brand" href="index-posts.php">
         <img alt="Brand" src="img/logo-interna.png">
       </a>
     </div>
@@ -23,9 +23,5 @@
         <li><a href="contato.php">Contatos</a></li>
       </ul>
     </div><!-- /.navbar-collapse -->
-
-
-    <script src="js/jquery-3.3.1.min.js"></script>
-    <script src="js/bootstrap.min.js"></script>
   </div>
 </nav>

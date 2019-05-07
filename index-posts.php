@@ -2,13 +2,6 @@
   include_once "head.php" ;
   include_once "header-interna.php" ;
 
-  $cursos = [
-    "Full Stack" => ["Curso de Desenvolvimento Web", 1000.99, "full.jpeg", "fullstack"],
-    "Marketing Digital" => ["Curso de Marketing", 1000.98, "marketing.jpg", "marketing"],
-    "UX" => ["Curso de User Experience", 9000.98, "ux.jpg", "ux"],
-    "Mobile Android" => ["Curso de Apps", 1000.97, "android.png", "android"]
-  ];
-
 ?>
 <main>
   <div class="container">
@@ -17,7 +10,7 @@
       <div class="col-md-4">
         <div class="curso-box-card"> <!--Box que engloba todo o Card do curso-->
           <div class="curso-box-img panel"> <!--Box que engloba imagem e nome do curso-->
-            <span class="curso-box-add"><a href="post-interna.html">+</a></span>
+            <span class="curso-box-add"><a href="post-interna.php">+</a></span>
             <div class="curso-box-titulo-bg">
               <h2 class="bold curso-box-titulo">Sistema de Equações do 1 Grau</h2>
               <h3 class="curso-box-categ">Matemática</h3>
