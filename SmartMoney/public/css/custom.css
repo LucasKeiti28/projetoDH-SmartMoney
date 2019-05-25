@@ -1,0 +1,585 @@
+/*GLOBAL/////////////////////////////////////////////////////////////////////*/
+@font-face {
+  font-family: axiformaRegular;
+  src: url(../fonts/axiformaRegular.otf);
+}
+
+@font-face {
+  font-family: axiformaBold;
+  src: url(../fonts/axiformaBold.otf);
+}
+
+body {
+  font-size:16px;
+  font-family: 'axiformaRegular', sans-serif;
+  background-color: #f7f7f7;
+}
+
+.bold {
+  font-family: 'axiformaBold',sans-serif;
+}
+
+.verde {
+  color:#c2e62f;
+}
+
+.azul {
+  color:#4b5a6c;
+}
+
+.mt-5{
+  margin-top: 5px;
+}
+.mt-10{
+  margin-top: 10px;
+}
+.mt-15{
+  margin-top: 15px;
+}
+
+.display-flex-center {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+/*LOGIN//////////////////////////////////////////////////////////////////////*/
+
+.login-page{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: column;
+  height: 100vh;
+  background-color: #c2e62f;
+}
+
+.form-login{
+  width: 300px;
+  background-color: #fff;
+  border-radius: 9px;
+}
+
+.form-centro {
+  text-align: center;
+  margin: 30px;
+}
+
+.seu-login{
+  text-align: center;
+  color: #4b5a6c;
+  display:block;
+}
+
+.form-login input{
+  width: 100%;
+  padding: 15px 10px;
+  background-color: #8080801f;
+  border: none;
+  margin-bottom: 8px;
+  padding:10px;
+}
+
+.form-login button{
+  width: 100%;
+  padding: 15px 10px;
+  background-color: #4b5a6c;
+  border: none;
+  color: #f7f7f7;
+  transition: all 0.3s;
+}
+
+.form-login button:hover {
+  background-color: #c2e62f;
+}
+
+.esqueci-senha a {
+  color: #c2e62f;
+}
+
+.esqueci-senha a:hover {
+  text-decoration: underline;  
+}
+
+.login-form-container{
+  display: flex;
+  justify-content: center;
+}
+
+.login-form-container .seu-login,
+.login-form-container .cpf,
+.login-form-container .botao,
+.login-form-container .esqueci-senha  {
+  margin-top: 30px;
+}
+
+/*NAVBAR/////////////////////////////////////////////////////////////////////*/
+
+.navbar {
+  margin-bottom:0;
+}
+
+.navbar-brand {
+  height: 60px;
+  padding: 5px 50px 5px 15px;
+}
+
+.navbar-default .navbar-toggle .icon-bar {
+  background-color: #c2e62f;
+}
+
+.navbar-default .navbar-toggle:focus,
+.navbar-default .navbar-toggle:hover {
+  background:none;
+}
+
+.navbar-default .navbar-nav>li>a {
+  color:#4b5a6c;
+}
+
+.navbar-nav>li>a {
+  padding:0 10px;
+  line-height: 60px;
+  font-size: 0.875em;
+}
+
+.navbar-default .navbar-nav>.active>a,
+.navbar-default .navbar-nav>.open>a {
+  background:none;
+  box-shadow:none;
+}
+
+.navbar-default .navbar-nav>li>a:hover,
+.navbar-default .navbar-nav>.active>a,
+.navbar-default .navbar-nav>.active>a:hover {
+  color: #c2e62f;
+  background:none;
+  transition: all 0.1s;
+}
+
+.navbar-default .navbar-nav>li>a.login {
+  color:#c2e62f;
+  padding: 0 30px;
+}
+
+.navbar-default .navbar-nav>li>a.login:hover {
+  color:#4b5a6c;
+}
+
+.navbar-default .navbar-nav>li>a.cadastre-se {
+  padding: 0 30px;
+  background-color: #c2e62f;
+}
+
+.navbar-default .navbar-nav>li>a.cadastre-se:hover {
+  color: #fff;
+  background-color: #4b5a6c;
+}
+
+.navbar-default .navbar-toggle {
+  border-color: transparent;
+  margin: 13px 15px;
+}
+
+/*NAVBAR INTERNA/////////////////////////////////////////////////////////////*/
+
+#menu-interno-cursos.collapse.navbar-collapse {
+  display: none!important;
+}
+
+#menu-interno-cursos.collapse.navbar-collapse.in {
+  display: block!important;
+}
+
+#menu-interno-cursos .navbar-left,
+#menu-interno-cursos .navbar-right,
+#menu-interno-cursos .navbar-nav,
+#menu-interno-cursos .navbar-nav > li,
+.navbar-header.navbar-header-interna.navbar-left{
+  float:none !important;
+}
+
+#menu-interno-cursos {
+  text-align: center;
+}
+
+#menu-interno-cursos.navbar-right {
+  float: none!important;
+}
+
+.navbar-header-interna p.navbar-text {
+  margin-top: 20px;
+  margin-bottom: 15px;
+  position: absolute;
+  right: 60px;
+}
+
+.navbar-header-interna {
+  position: relative;
+}
+
+.navbar-header-interna a.navbar-link {
+  color:#4b5a6c;
+}
+
+.navbar-interna {
+  background-color:#c2e62f;
+}
+
+.navbar-header-interna .navbar-toggle .icon-bar {
+  background-color: #4b5a6c;
+}
+
+.navbar-header-interna .navbar-toggle {
+  display: block;
+}
+
+.navbar-header .navbar-toggle-interna {
+  border-color: transparent;
+  margin: 13px 15px;
+}
+
+.navbar-toggle-interna.navbar-right {
+  float: right!important;
+}
+
+#menu-interno-cursos .nav > li > a {
+  color:#fff;
+  border-top: 1px solid #ffffff2b;
+}
+
+
+
+
+/*MODAL NOVA CONTA/////////////////////////////////////////////////////////////*/
+#novaConta .modal-dialog {
+  float: right;
+  margin: 0;
+}
+
+#novaConta .bt-fechar-modal{
+  font-size: 50px;
+  color: #617419;
+  font-weight: normal;
+}
+
+#novaConta .modal-content{
+  -webkit-box-shadow: 0 5px 15px rgba(0,0,0,0);
+  -moz-box-shadow: 0 5px 15px rgba(0,0,0,0);
+  -o-box-shadow: 0 5px 15px rgba(0,0,0,0);
+  box-shadow: 0 5px 15px rgba(0,0,0,0);
+  border-radius: 0;
+  border: none;
+  min-height: 100vh;
+}
+
+#novaConta .modal-header{
+  border: none;
+  padding: 0 5px;
+}
+.padding-30{
+  padding: 0 30px;
+}
+
+#novaConta .form-control {
+  margin-top: 25px;
+  border-radius: 0px;
+  height: 55px;
+  background-color: #f2f2f2;
+  border: none;
+  -webkit-box-shadow: 0 0px 0px rgba(0,0,0,0);
+  -moz-box-shadow: 0 0px 0px rgba(0,0,0,0);
+  -o-box-shadow: 0 0px 0px rgba(0,0,0,0);
+  box-shadow: 0 0px 0px rgba(0,0,0,0);
+}
+
+#novaConta label {
+  margin-left: 10px;
+}
+
+#novaConta .btn-secundario {
+  background-color:#4b5a6c;
+  color: #fff;
+  border-radius: 0;
+  margin-top: 20px;
+  padding: 15px 50px;
+  transition: all 0.3s;
+}
+
+#novaConta .btn-secundario:hover {
+  background-color: #c2e62f;
+  color:#fff;
+}
+
+
+/*CONTEÚDO///////////////////////////////////////////////////////////////////*/
+
+main.institucional {
+  width:100%;
+  height: calc(100vh - 62px);
+}
+
+.img-principal {
+  display: block;
+  max-height: 70vh;
+  margin: 0 auto;
+}
+
+h1 {
+  color:#c2e62f;
+  font-size:2.25em;
+  margin-bottom:0;
+}
+
+h2 {
+  color:#4b5a6c;
+  font-size: 1.875em;
+  margin-top:0;
+}
+h3{
+  color:#c2e62f;
+  font-size: 1.8em;
+  margin-bottom: 0;
+  font-weight: normal;
+}
+
+a.link-principal{
+  display: inline-block;
+  padding-top:50px;
+  text-decoration: underline;
+  transition: all 0.1s;
+}
+
+a.link-principal:hover {
+  color:#c2e62f;
+  cursor: pointer;
+}
+
+/*CONTATO////////////////////////////////////////////////////////////////////*/
+.form-control {
+  margin-top: 25px;
+  border-radius: 0px;
+  height: 55px;
+}
+
+.btn-contato {
+  background-color: #c2e62f;
+  color: #fff;
+  border-radius: 0;
+  margin-top: 20px;
+  padding: 15px 50px;
+  transition: all 0.3s;
+}
+
+.btn-contato:hover {
+  background-color:#4b5a6c;
+  color:#fff;
+}
+
+
+/*POST PRICIPAL///////////////////////////////////////////////////////////////*/
+
+.curso-box-card {
+  margin-top:50px;
+}
+
+.curso-box-card .panel {
+  border:none;
+}
+
+.curso-box-img {
+  background-image: url(../img/matematica.jpg);
+  background-position: center center;
+  background-size:cover;
+  background-repeat: no-repeat;
+  width:100%;
+  height:250px;
+  position:relative;
+}
+
+.curso-box-add a {
+  position:absolute;
+  top:10px;
+  right:10px;
+  width:35px;
+  height:35px;
+  border-radius:100%;
+  color:#617419;
+  background-color: #c2e62f;
+  text-align: center;
+  line-height: 40px;
+  display: inline-block;
+  font-size: 2em;
+  cursor:pointer;
+}
+.curso-box-add a:hover{
+  color:#c2e62f;
+  background-color: #617419;
+  text-decoration: none;
+}
+
+.curso-box-titulo-bg {
+  position: absolute;
+  bottom: -1px;
+  left:0;
+  background-color:#4b5a6c;
+  width:100%;
+  padding:15px;
+  border-radius:0 0 3px 3px;
+}
+
+.curso-box-titulo {
+  font-size:1em;
+  color:#fff;
+}
+
+.curso-box-categ {
+  font-size:0.8em;
+  margin:0;
+}
+
+.card-infos-num {
+  text-align: center;
+  font-size:1.3em;
+  padding:10px 0 0 0;
+}
+
+.card-infos-desc {
+  text-align:center;
+  font-size:0.7em;
+  padding: 0 0 10px 0;
+}
+
+/* PAGINA INTERNA AULA ///////////////////////////////////////////////////////*/
+
+.botao-aula{
+  width: 224px;
+  height: 67px;
+  background-color: #4b5a6c;
+  color: #f7f7f7;
+  margin: 35px 0 35px ;
+  font-size: 10px;
+  color: #c2e62f;
+}
+
+.materia{
+font-size: 20px;
+margin: 0px 10px;
+}
+
+.tituloAula{
+  margin: 0px 10px;
+  /* font-size: 8px; */
+}
+
+.row-1{
+  margin: 15px;
+}
+.bg-submenu-post-interno{
+  background-color: #4b5a6c;
+}
+.submenu{
+  width:100%;
+  margin:15px 0;
+  display:flex;
+  color: white;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.submenu li{
+  list-style-type: none;
+}
+
+.h2{
+  margin: 20px;
+}
+
+
+/*MEDIA QUERY////////////////////////////////////////////////////////////////*/
+@media (max-width: 991px) {
+  .collapse.navbar-collapse {
+    display: none!important;
+  }
+
+  .collapse.navbar-collapse.in {
+    display: block!important;
+  }
+
+  .navbar-left,
+  .navbar-right,
+  .navbar-nav,
+  .navbar-nav > li {
+    float:none !important;
+  }
+
+  .navbar-toggle {
+    display: block;
+  }
+
+  .navbar-default .navbar-nav>li>a.login,
+  .navbar-default .navbar-nav>li>a.cadastre-se {
+    padding: 0;
+    padding-left: 15px;
+    border-top: 1px solid #ccc;
+  }
+
+  .navbar-static-top .navbar-collapse {
+    padding: 0 15px;
+  }
+
+  .navbar-nav {
+    margin: 0px -15px;
+  }
+
+  .curso-box-img {
+    height:325px;
+  }
+
+/*//////////////////////////////////////*/
+
+  .texto-principal-mobile {
+    margin:60px 0;
+    text-align: center;
+  }
+}
+
+/* PAGINA INTERNA AULA //////////////////////////////////////*/
+
+.botao-aula{
+  width: 224px;
+  height: 67px;
+  background-color: #4b5a6c;
+  color: #f7f7f7;
+  margin: 35px 0 35px ;
+  font-size: 10px;
+  color: #c2e62f;
+}
+
+.materia{
+font-size: 20px;
+margin: 0px 10px;
+}
+
+.tituloAula{
+  margin: 0px 10px;
+  /* font-size: 8px; */
+}
+
+.post-interna_1, .post-interna_2, .post-interna_3{
+  display: inline-block;
+}
+
+footer {
+  width: 100%;
+  height: 60px;
+  background-color: #c2e62f;
+}
+
+.footer_text{
+  text-align: center;
+  padding-top: 25px;
+  font-size: 12px;
+}

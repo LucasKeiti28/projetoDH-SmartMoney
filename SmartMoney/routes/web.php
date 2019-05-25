@@ -11,6 +11,14 @@
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
-});
+// Route::get('/', function () {
+//     return view('welcome');
+// });
+
+Route::get('/', 'PaginasController@exibirHome');
+Route::get('/sobre-nos', 'PaginasController@exibirSobre');
+Route::get('/contato', 'PaginasController@exibirContato');
+Route::get('/login', 'PaginasController@exibirLogin');
+
+Route::get('/cursos', 'CursosController@exibirCursos');
+Route::get('/cursos/curso', 'CursosController@exibirCurso'); //Trocar nome da rota para /cursos/{id}
